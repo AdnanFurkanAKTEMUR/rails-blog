@@ -81,3 +81,4 @@ end
 
   gem 'ed25519'
   gem 'bcrypt_pbkdf'
+  gem 'strscan', '~> 3.0', '>= 3.0.4'
