@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   # root "articles#index"
   resources :home
   root 'home#index'
+
+  resources :blogs
  
 end

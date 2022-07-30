@@ -81,4 +81,6 @@ end
 
   gem 'ed25519'
   gem 'bcrypt_pbkdf'
-  gem 'strscan', '~> 3.0', '>= 3.0.4'
+#  gem 'strscan', '~> 3.0', '>= 3.0.4'
+
+gem "simple_form", "~> 5.1.0"

@@ -1,0 +1,7 @@
+<div class="blog">
+  <%= link_to blog.name, blog_path(blog) %>
+  <div class="blog_actions">
+    <%= button_to "Delete", blog_path(blog), method: :delete, class: "btn btn-light" %>
+    <%= link_to "Edit", edit_blog_path(blog), class: "btn btn-light" %>
+  </div>
+</div>
